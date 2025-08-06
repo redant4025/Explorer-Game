@@ -1,181 +1,54 @@
-# Ì½Ë÷ÕßÓÎÏ· - README
+# æ¢ç´¢è€…æ¸¸æˆ - README
+ï¼ˆé€‚åˆåˆå­¦pythonå…¥é—¨å­¦ä¹ )
+## æ¸¸æˆç®€ä»‹
+è¿™æ˜¯ä¸€æ¬¾åŸºäºPygameå¼€å‘çš„æ¢ç´¢ç±»ç”Ÿå­˜æ¸¸æˆï¼Œç©å®¶å°†æ§åˆ¶æ¢ç´¢è€…åœ¨åœ°å›¾ä¸­æ”¶é›†é£Ÿç‰©è·å–åˆ†æ•°ï¼ŒåŒæ—¶éœ€èº²é¿ç‹©çŒè€…çš„è¿½æ•ã€‚æ¸¸æˆèåˆäº†åŠ¨æ€ä½“å‹ç³»ç»Ÿã€èƒ½é‡ç®¡ç†å’ŒAIè¿½è¸ªæœºåˆ¶ï¼Œå¸¦æ¥å¯Œæœ‰ç­–ç•¥æ€§çš„ç”Ÿå­˜ä½“éªŒã€‚
 
-## ÓÎÏ·¼ò½é
-ÕâÊÇÒ»¿î»ùÓÚPygame¿ª·¢µÄÌ½Ë÷ÀàÉú´æÓÎÏ·£¬Íæ¼Ò½«¿ØÖÆÌ½Ë÷ÕßÔÚµØÍ¼ÖĞÊÕ¼¯Ê³Îï»ñÈ¡·ÖÊı£¬Í¬Ê±Ğè¶ã±Üá÷ÁÔÕßµÄ×·²¶¡£ÓÎÏ·ÈÚºÏÁË¶¯Ì¬ÌåĞÍÏµÍ³¡¢ÄÜÁ¿¹ÜÀíºÍAI×·×Ù»úÖÆ£¬´øÀ´¸»ÓĞ²ßÂÔĞÔµÄÉú´æÌåÑé¡£
 
-## Íæ¼ÒÏµÍ³Ïê½â
 
-### ºËĞÄÊôĞÔ
-- **ÄÜÁ¿ÏµÍ³**£º³õÊ¼ÄÜÁ¿ÖµÎª`PLAYER_INIT_ENERGY`£¬×î´óÄÜÁ¿ÖµÎª400£¬ÄÜÁ¿»áËæÊ±¼ä×ÔÈ»ÏûºÄ£¬Ò²»áÒòÒÆ¶¯ºÍ³å´Ì¶îÍâÏûºÄ
-- **ÌåĞÍ±ä»¯**£º¸ù¾İÄÜÁ¿Öµ¶¯Ì¬¸Ä±ä´óĞ¡
-  - ÄÜÁ¿=0Ê±£º»ù´¡ÌåĞÍ£¨1±¶»ù´¡°ë¾¶£©
-  - ÄÜÁ¿=200Ê±£º2±¶»ù´¡°ë¾¶
-  - ÄÜÁ¿=400Ê±£º3±¶»ù´¡°ë¾¶
-- **ËÙ¶ÈÌØĞÔ**£ºÓëÄÜÁ¿³É·´±È¹ØÏµ
-  - ÄÜÁ¿=0Ê±£º150%»ù´¡ËÙ¶È
-  - ÄÜÁ¿=200Ê±£º75%»ù´¡ËÙ¶È
-  - ÄÜÁ¿=400Ê±£º50%»ù´¡ËÙ¶È
+## æ ¸å¿ƒæ¨¡å—è¯´æ˜
 
-### ¶¯×÷»úÖÆ
-- **ÒÆ¶¯¿ØÖÆ**£ºÍ¨¹ıÊó±ê×ó¼ü¿ØÖÆÇ°½ø£¬½ÇÉ«»á×Ô¶¯³¯ÏòÊó±êÖ¸Õë·½ÏòĞı×ª
-- **³å´Ì¹¦ÄÜ**£ºÊó±êÓÒ¼ü´¥·¢£¬ÏûºÄ20µãÄÜÁ¿£¬¶ÌÊ±¼äÄÚ´ó·ùÌáÉıÒÆ¶¯ËÙ¶È£¨`PLAYER_DASH_SPEED_MULTIPLIER`±¶£©
-- **ÄÜÁ¿»Ö¸´**£ºÍ¨¹ıÊÕ¼¯Ê³ÎïÔö¼ÓÄÜÁ¿£¬²»Í¬¼ÛÖµµÄÊ³ÎïÌá¹©²»Í¬ÄÜÁ¿Öµ
+### 1. éŸ³é¢‘ç³»ç»Ÿï¼ˆaudio.pyï¼‰
+- **AudioManagerç±»**ï¼šåŸºäºå¯¹è±¡æ± æ¨¡å¼çš„éŸ³é¢‘ç®¡ç†ç³»ç»Ÿ
+  - åˆå§‹åŒ–ï¼šè‡ªåŠ¨æ£€æµ‹å¹¶åˆå§‹åŒ–PygameéŸ³é¢‘ç³»ç»Ÿï¼Œæ”¯æŒè‡ªå®šä¹‰æœ€å°/æœ€å¤§å®ä¾‹æ•°
+  - éŸ³æ•ˆåŠ è½½ï¼šè‡ªåŠ¨åŠ è½½`audio`ç›®å½•ä¸‹çš„åŸºç¡€éŸ³æ•ˆï¼ˆeat/lost/run/winï¼‰ï¼Œç¼ºå¤±æ–‡ä»¶æ—¶ç»™å‡ºè­¦å‘Š
+  - éŸ³é‡æ§åˆ¶ï¼šæä¾›`set_volume()`å’Œ`get_volume()`æ–¹æ³•ï¼Œæ”¯æŒå…¨å±€éŸ³é‡è°ƒèŠ‚ï¼ˆ0.0-1.0èŒƒå›´ï¼‰
+  - å®ä¾‹ç®¡ç†ï¼š
+    - åŠ¨æ€ç»´æŠ¤éŸ³æ•ˆå®ä¾‹æ± ï¼Œè‡ªåŠ¨å›æ”¶å·²å®Œæˆæ’­æ”¾çš„å®ä¾‹
+    - æ”¯æŒåŒæ—¶æ’­æ”¾å¤šä¸ªç›¸åŒéŸ³æ•ˆï¼ˆä¸è¶…è¿‡æœ€å¤§å®ä¾‹æ•°é™åˆ¶ï¼‰
+    - è‡ªåŠ¨æ¸…ç†è¶…å‡ºæœ€å°ä¿ç•™æ•°çš„å¯ç”¨å®ä¾‹ï¼Œä¼˜åŒ–èµ„æºå ç”¨
+  - æ’­æ”¾æ§åˆ¶ï¼š`play_sound()`æ’­æ”¾æŒ‡å®šéŸ³æ•ˆï¼Œ`stop_sound()`åœæ­¢ç‰¹å®šéŸ³æ•ˆæ‰€æœ‰å®ä¾‹ï¼Œ`clear_all()`åœæ­¢æ‰€æœ‰éŸ³æ•ˆ
 
-### ÊÓ¾õ±íÏÖ
-- Ç³À¶É«Ô²ĞÎÉíÌå£¬³å´ÌÊ±ÑÕÉ«±äÁÁ
-- ËæĞı×ª·½Ïò±ä»¯µÄÑÛ¾¦ºÍ×ì°Í£¬ÔöÇ¿½ÇÉ«±íÏÖÁ¦
-- Í·¶¥ÄÜÁ¿ÌõÖ±¹ÛÏÔÊ¾µ±Ç°ÄÜÁ¿×´Ì¬£¨ÂÌÉ«¡ú»ÆÉ«¡úºìÉ«½¥±ä£©
-- ³å´ÌÊ±»áÁôÏÂ°ëÍ¸Ã÷¹ì¼££¬ÌáÉı¶¯×÷·´À¡
+### 2. æ¸¸æˆæ ¸å¿ƒï¼ˆgame.pyï¼‰
+- ç®¡ç†æ¸¸æˆä¸»å¾ªç¯ã€çŠ¶æ€æ›´æ–°å’Œç”»é¢æ¸²æŸ“
+- å¤„ç†ç¢°æ’æ£€æµ‹ï¼ˆç©å®¶ä¸é£Ÿç‰©ã€ç©å®¶ä¸ç‹©çŒè€…ï¼‰
+- å®ç°æ¸¸æˆèƒœåˆ©/å¤±è´¥é€»è¾‘ï¼ˆé£Ÿç‰©è€—å°½èƒœåˆ©ã€è¢«ç‹©çŒè€…æ•è·æˆ–èƒ½é‡è€—å°½å¤±è´¥ï¼‰
+- ç»˜åˆ¶HUDç•Œé¢ï¼ˆåˆ†æ•°ã€ä½ç½®ã€é™„è¿‘ç‹©çŒè€…æ•°é‡å’Œæ“ä½œæç¤ºï¼‰
 
-## ÏîÄ¿½á¹¹
-©À©¤©¤ main.py # ³ÌĞòÈë¿Ú£¬°üº¬°´Å¥ÀàºÍ¿ªÊ¼½çÃæ
-©À©¤©¤ game.py # ÓÎÏ·Ö÷Âß¼­£¬°üº¬ÓÎÏ·Ñ­»·ºÍºËĞÄ»úÖÆ
-©À©¤©¤ player.py # Íæ¼ÒÀà£¬´¦ÀíÒÆ¶¯¡¢Ğı×ª¡¢ÄÜÁ¿ºÍ»æÖÆ
-©À©¤©¤ map.py # µØÍ¼ºÍĞ¡µØÍ¼Ïà¹ØÀàÓë»æÖÆÂß¼­
-©À©¤©¤ food.py # Ê³ÎïÊµÌåÀà
-©À©¤©¤ hunter.py # á÷ÁÔÕß AI Àà
-©À©¤©¤ audio.py # ÒôÆµ¹ÜÀíÏµÍ³
-©¸©¤©¤ audio/ # ÒôÆµ×ÊÔ´Ä¿Â¼
-©À©¤©¤ eat.mp3 # ³ÔÊ³ÎïÒôĞ§
-©À©¤©¤ lost.mp3 # ÓÎÏ·Ê§°ÜÒôĞ§
-©À©¤©¤ run.mp3 # ³å´ÌÒôĞ§
-©¸©¤©¤ win.mp3 # ÓÎÏ·Ê¤ÀûÒôĞ§
+### 3. åœ°å›¾ç³»ç»Ÿï¼ˆmap.pyï¼‰
+- `Map`ç±»ï¼šç»˜åˆ¶ç½‘æ ¼çŠ¶åœ°å›¾èƒŒæ™¯å’Œè¾¹ç•Œï¼Œåªæ¸²æŸ“ç©å®¶è§†é‡èŒƒå›´å†…çš„åŒºåŸŸ
+- `MinMap`ç±»ï¼šå³ä¸Šè§’å°åœ°å›¾ï¼Œæ˜¾ç¤ºç©å®¶ä½ç½®å’Œæ‰€æœ‰é£Ÿç‰©ä½ç½®ï¼ŒæŒ‰æ¯”ä¾‹ç¼©ç•¥æ˜¾ç¤ºæ•´ä¸ªåœ°å›¾
 
-## ºËĞÄÄ£¿éËµÃ÷
+### 4. é£Ÿç‰©ç³»ç»Ÿï¼ˆfood.pyï¼‰
+- éšæœºç”Ÿæˆåœ¨10000x10000çš„åœ°å›¾èŒƒå›´å†…ï¼Œç¡®ä¿ä¸ä¼šç”Ÿæˆåœ¨ç©å®¶èº«ä¸Š
+- é£Ÿç‰©ä»·å€¼éšæœºï¼ˆ`FOOD_MIN_VALUE`åˆ°`FOOD_MAX_VALUE`ä¹‹é—´ï¼‰ï¼Œä»·å€¼ä¸åŒæ˜¾ç¤ºé¢œè‰²ä¸åŒ
+- ä»…ç»˜åˆ¶å±å¹•å¯è§èŒƒå›´å†…çš„é£Ÿç‰©ï¼Œä¼˜åŒ–æ€§èƒ½
 
-### 1. ÒôÆµÏµÍ³£¨audio.py£©
-- **AudioManagerÀà**£º»ùÓÚ¶ÔÏó³ØÄ£Ê½µÄÒôÆµ¹ÜÀíÏµÍ³
-  - ³õÊ¼»¯£º×Ô¶¯¼ì²â²¢³õÊ¼»¯PygameÒôÆµÏµÍ³£¬Ö§³Ö×Ô¶¨Òå×îĞ¡/×î´óÊµÀıÊı
-  - ÒôĞ§¼ÓÔØ£º×Ô¶¯¼ÓÔØ`audio`Ä¿Â¼ÏÂµÄ»ù´¡ÒôĞ§£¨eat/lost/run/win£©£¬È±Ê§ÎÄ¼şÊ±¸ø³ö¾¯¸æ
-  - ÒôÁ¿¿ØÖÆ£ºÌá¹©`set_volume()`ºÍ`get_volume()`·½·¨£¬Ö§³ÖÈ«¾ÖÒôÁ¿µ÷½Ú£¨0.0-1.0·¶Î§£©
-  - ÊµÀı¹ÜÀí£º
-    - ¶¯Ì¬Î¬»¤ÒôĞ§ÊµÀı³Ø£¬×Ô¶¯»ØÊÕÒÑÍê³É²¥·ÅµÄÊµÀı
-    - Ö§³ÖÍ¬Ê±²¥·Å¶à¸öÏàÍ¬ÒôĞ§£¨²»³¬¹ı×î´óÊµÀıÊıÏŞÖÆ£©
-    - ×Ô¶¯ÇåÀí³¬³ö×îĞ¡±£ÁôÊıµÄ¿ÉÓÃÊµÀı£¬ÓÅ»¯×ÊÔ´Õ¼ÓÃ
-  - ²¥·Å¿ØÖÆ£º`play_sound()`²¥·ÅÖ¸¶¨ÒôĞ§£¬`stop_sound()`Í£Ö¹ÌØ¶¨ÒôĞ§ËùÓĞÊµÀı£¬`clear_all()`Í£Ö¹ËùÓĞÒôĞ§
+### 5. ç‹©çŒè€…AIï¼ˆhunter.pyï¼‰
+- åŸºäºä½“åŠ›ç³»ç»Ÿçš„è¡Œä¸ºå†³ç­–ï¼ˆè·‘æ­¥ã€å†²é”‹ç­‰åŠ¨ä½œæ¶ˆè€—ä½“åŠ›ï¼Œä½“åŠ›å¯è‡ªåŠ¨æ¢å¤ï¼‰
+- ç©å®¶æ£€æµ‹ä¸è¿½è¸ªï¼šåœ¨ detection_range èŒƒå›´å†…å¯æ£€æµ‹åˆ°ç©å®¶ï¼Œè¶…å‡ºèŒƒå›´åä¼šè®°å¿†ä½ç½®ä¸€æ®µæ—¶é—´
+- ç¾¤ä½“è¡Œä¸ºï¼šè€ƒè™‘é™„è¿‘ç‹©çŒè€…çš„çŠ¶æ€ï¼ˆæ˜¯å¦åœ¨å†²é”‹/è·‘æ­¥ï¼‰è°ƒæ•´è‡ªèº«è¡Œä¸ºæ¦‚ç‡
+- å†²é”‹æœºåˆ¶ï¼šåœ¨ç‰¹å®šè·ç¦»èŒƒå›´å†…ï¼ˆ100-300åƒç´ ï¼‰ä¸”ä½“åŠ›å……è¶³æ—¶ï¼Œæœ‰æ¦‚ç‡å‘ç©å®¶å†²é”‹
+- è·¯å¾„ä¼˜åŒ–ï¼šä¼šè®¡ç®—æ‹¦æˆªç‚¹ï¼Œé¢„æµ‹ç©å®¶ç§»åŠ¨è½¨è¿¹
 
-### 2. ÓÎÏ·ºËĞÄ£¨game.py£©
-- ¹ÜÀíÓÎÏ·Ö÷Ñ­»·¡¢×´Ì¬¸üĞÂºÍ»­ÃæäÖÈ¾
-- ´¦ÀíÅö×²¼ì²â£¨Íæ¼ÒÓëÊ³Îï¡¢Íæ¼ÒÓëá÷ÁÔÕß£©
-- ÊµÏÖÓÎÏ·Ê¤Àû/Ê§°ÜÂß¼­£¨Ê³ÎïºÄ¾¡Ê¤Àû¡¢±»á÷ÁÔÕß²¶»ñ»òÄÜÁ¿ºÄ¾¡Ê§°Ü£©
-- »æÖÆHUD½çÃæ£¨·ÖÊı¡¢Î»ÖÃ¡¢¸½½üá÷ÁÔÕßÊıÁ¿ºÍ²Ù×÷ÌáÊ¾£©
+## æ¸¸æˆæ“ä½œ
+- é¼ æ ‡å·¦é”®ï¼šå‰è¿›ï¼ˆæ¶ˆè€—èƒ½é‡ï¼‰
+- é¼ æ ‡å³é”®ï¼šå†²åˆºï¼ˆæ¶ˆè€—20ç‚¹èƒ½é‡ï¼ŒçŸ­æ—¶é—´åŠ é€Ÿï¼‰
+- ESCé”®ï¼šé€€å‡ºæ¸¸æˆ
+- Ré”®ï¼šæ¸¸æˆç»“æŸåé‡æ–°å¼€å§‹
 
-### 3. µØÍ¼ÏµÍ³£¨map.py£©
-- `Map`Àà£º»æÖÆÍø¸ñ×´µØÍ¼±³¾°ºÍ±ß½ç£¬Ö»äÖÈ¾Íæ¼ÒÊÓÒ°·¶Î§ÄÚµÄÇøÓò
-- `MinMap`Àà£ºÓÒÉÏ½ÇĞ¡µØÍ¼£¬ÏÔÊ¾Íæ¼ÒÎ»ÖÃºÍËùÓĞÊ³ÎïÎ»ÖÃ£¬°´±ÈÀıËõÂÔÏÔÊ¾Õû¸öµØÍ¼
-
-### 4. Ê³ÎïÏµÍ³£¨food.py£©
-- Ëæ»úÉú³ÉÔÚ10000x10000µÄµØÍ¼·¶Î§ÄÚ£¬È·±£²»»áÉú³ÉÔÚÍæ¼ÒÉíÉÏ
-- Ê³Îï¼ÛÖµËæ»ú£¨`FOOD_MIN_VALUE`µ½`FOOD_MAX_VALUE`Ö®¼ä£©£¬¼ÛÖµ²»Í¬ÏÔÊ¾ÑÕÉ«²»Í¬
-- ½ö»æÖÆÆÁÄ»¿É¼û·¶Î§ÄÚµÄÊ³Îï£¬ÓÅ»¯ĞÔÄÜ
-
-### 5. á÷ÁÔÕßAI£¨hunter.py£©
-- »ùÓÚÌåÁ¦ÏµÍ³µÄĞĞÎª¾ö²ß£¨ÅÜ²½¡¢³å·æµÈ¶¯×÷ÏûºÄÌåÁ¦£¬ÌåÁ¦¿É×Ô¶¯»Ö¸´£©
-- Íæ¼Ò¼ì²âÓë×·×Ù£ºÔÚ detection_range ·¶Î§ÄÚ¿É¼ì²âµ½Íæ¼Ò£¬³¬³ö·¶Î§ºó»á¼ÇÒäÎ»ÖÃÒ»¶ÎÊ±¼ä
-- ÈºÌåĞĞÎª£º¿¼ÂÇ¸½½üá÷ÁÔÕßµÄ×´Ì¬£¨ÊÇ·ñÔÚ³å·æ/ÅÜ²½£©µ÷Õû×ÔÉíĞĞÎª¸ÅÂÊ
-- ³å·æ»úÖÆ£ºÔÚÌØ¶¨¾àÀë·¶Î§ÄÚ£¨100-300ÏñËØ£©ÇÒÌåÁ¦³ä×ãÊ±£¬ÓĞ¸ÅÂÊÏòÍæ¼Ò³å·æ
-- Â·¾¶ÓÅ»¯£º»á¼ÆËãÀ¹½Øµã£¬Ô¤²âÍæ¼ÒÒÆ¶¯¹ì¼£
-
-## ÓÎÏ·²Ù×÷
-- Êó±ê×ó¼ü£ºÇ°½ø£¨ÏûºÄÄÜÁ¿£©
-- Êó±êÓÒ¼ü£º³å´Ì£¨ÏûºÄ20µãÄÜÁ¿£¬¶ÌÊ±¼ä¼ÓËÙ£©
-- ESC¼ü£ºÍË³öÓÎÏ·
-- R¼ü£ºÓÎÏ·½áÊøºóÖØĞÂ¿ªÊ¼
-
-## °²×°ÓëÔËĞĞ
-1. °²×°ÒÀÀµ¿â£º
+## å®‰è£…ä¸è¿è¡Œ
+1. å®‰è£…ä¾èµ–åº“ï¼š
 ```bash
 pip install pygame
 
 
-
-
-
-# Explorer Game - README
-
-## Game Introduction
-This is an exploration survival game developed with Pygame. Players control an explorer to collect food for points while avoiding hunters. The game integrates a dynamic size system, energy management, and AI tracking mechanisms to deliver a strategic survival experience.
-
-## Player System Details
-
-### Core Attributes
-- **Energy System**: Initial energy value is `PLAYER_INIT_ENERGY` with a maximum of 400. Energy naturally depletes over time and additionally consumes when moving or dashing.
-- **Size Changes**: Dynamically changes based on energy level:
-  - Energy = 0: Base size (1x base radius)
-  - Energy = 200: 2x base radius
-  - Energy = 400: 3x base radius
-- **Speed Characteristics**: Inversely proportional to energy:
-  - Energy = 0: 150% base speed
-  - Energy = 200: 75% base speed
-  - Energy = 400: 50% base speed
-
-### Movement Mechanics
-- **Movement Control**: Left mouse button to move forward; character automatically rotates toward mouse pointer.
-- **Dash Function**: Triggered by right mouse button, consumes 20 energy points, and significantly increases movement speed temporarily (`PLAYER_DASH_SPEED_MULTIPLIER` times).
-- **Energy Recovery**: Increase energy by collecting food; different value foods provide different energy points.
-
-### Visual Presentation
-- Light blue circular body that brightens when dashing
-- Direction-aware eyes and mouth to enhance character expression
--Í·¶¥ energy bar showing current energy status with gradient (green¡úyellow¡úred)
-- Translucent trail effect when dashing to enhance action feedback
-
-## Project Structure
-©À©¤©¤ main.py # Program entry point, contains button classes and start screen
-©À©¤©¤ game.py # Main game logic, includes game loop and core mechanisms
-©À©¤©¤ player.py # Player class, handles movement, rotation, energy and rendering
-©À©¤©¤ map.py # Map and minimap related classes and drawing logic
-©À©¤©¤ food.py # Food entity class
-©À©¤©¤ hunter.py # Hunter AI class
-©À©¤©¤ audio.py # Audio management system
-©¸©¤©¤ audio/ # Audio resource directory
-©À©¤©¤ eat.mp3 # Food collection sound effect
-©À©¤©¤ lost.mp3 # Game over sound effect
-©À©¤©¤ run.mp3 # Dash sound effect
-©¸©¤©¤ win.mp3 # Victory sound effect
-
-## Core Module Explanations
-
-### 1. Audio System (audio.py)
-- **AudioManager Class**: Object pool pattern-based audio management system
-  - Initialization: Automatically detects and initializes Pygame audio system, supports custom minimum/maximum instance counts
-  - Sound loading: Automatically loads basic sound effects from `audio` directory (eat/lost/run/win), provides warnings for missing files
-  - Volume control: Offers `set_volume()` and `get_volume()` methods, supports global volume adjustment (0.0-1.0 range)
-  - Instance management:
-    - Dynamically maintains sound effect instance pool, automatically recycles completed instances
-    - Supports simultaneous playback of multiple identical sounds (not exceeding maximum instance limit)
-    - Automatically cleans up available instances exceeding minimum retention count for optimal resource usage
-  - Playback control: `play_sound()` for playing specific sounds, `stop_sound()` to stop all instances of a sound, `clear_all()` to stop all sounds
-
-### 2. Game Core (game.py)
-- Manages main game loop, state updates and screen rendering
-- Handles collision detection (player with food, player with hunters)
-- Implements game win/lose logic (victory when all food is collected, defeat when caught by hunters or energy depleted)
-- Renders HUD interface (score, position, nearby hunter count and operation hints)
-
-### 3. Map System (map.py)
-- `Map` class: Draws grid-based map background and boundaries, only renders area within player's field of view
-- `MinMap` class: Top-right minimap showing player position and all food locations, displaying entire map proportionally
-
-### 4. Food System (food.py)
-- Spawns randomly within 10000x10000 map area, ensuring no spawns on player
-- Food values random (between `FOOD_MIN_VALUE` and `FOOD_MAX_VALUE`), different values display different colors
-- Only renders food within screen visibility range for performance optimization
-
-### 5. Hunter AI (hunter.py)
-- Stamina-based behavior decisions (running, charging consume stamina which automatically recovers)
-- Player detection and tracking: Can detect players within detection_range, remembers position for a period after out of range
-- Swarm behavior: Considers nearby hunters' states (charging/running) to adjust own behavior probability
-- Charge mechanism: Has probability to charge at player within specific distance range (100-300 pixels) when stamina is sufficient
-- Path optimization: Calculates interception points and predicts player movement trajectory
-
-## Game Controls
-- Left mouse button: Move forward (consumes energy)
-- Right mouse button: Dash (consumes 20 energy points, temporarily accelerates)
-- ESC key: Exit game
-- R key: Restart after game over
-
-## Installation and Running
-1. Install dependencies:
-```bash
-pip install pygame
